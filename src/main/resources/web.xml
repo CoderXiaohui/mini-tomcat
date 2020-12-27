@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<web-app>
+    <servlet>
+        <servlet-name>dxh</servlet-name>
+        <servlet-class>server.DxhServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>dxh</servlet-name>
+        <url-pattern>/dxh</url-pattern>
+    </servlet-mapping>
+
+</web-app>
